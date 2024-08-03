@@ -21,7 +21,7 @@ const Nav = ({ search, setSearch, searchproduct }) => {
         </div>
         <div className="mid_header">
           <div className="logo">
-            <Link to={"/mediamgashop"}>
+            <Link to={"/"}>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYsX5NPQnOkOIqe6utAoiWcTcJyqVzLUf-SuMiREjUauHvxgxmp2UqpDsN78ERRNxMoAI&usqp=CAU"
                 alt="logo"
@@ -99,7 +99,7 @@ const Nav = ({ search, setSearch, searchproduct }) => {
           <div className="nav">
             <ul>
               <li>
-                <Link to="/mediamgashop" className="link">
+                <Link to="/" className="link">
                   Home
                 </Link>
               </li>
