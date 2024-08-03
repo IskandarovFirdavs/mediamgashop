@@ -8,7 +8,7 @@ const Rout = ({ shop, Filter, allcatefilter, addtocart, cart, setCart }) => {
   return (
     <>
       <Routes>
-        <Route path="/mediamgashop/" element={<Home addtocart={addtocart} />} />
+        <Route path="/mediamgashop" element={<Home addtocart={addtocart} />} />
         <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
         <Route
           path="/shop"
