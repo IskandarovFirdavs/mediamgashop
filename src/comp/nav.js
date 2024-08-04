@@ -21,7 +21,7 @@ const Nav = ({ search, setSearch, searchproduct }) => {
         </div>
         <div className="mid_header">
           <div className="logo">
-            <Link to={"/"}>
+            <Link to={"/mediamgashop/"}>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYsX5NPQnOkOIqe6utAoiWcTcJyqVzLUf-SuMiREjUauHvxgxmp2UqpDsN78ERRNxMoAI&usqp=CAU"
                 alt="logo"
@@ -41,7 +41,6 @@ const Nav = ({ search, setSearch, searchproduct }) => {
             </button>
           </div>
           {isAuthenticated ? (
-            // if user is login then Logout Button will shown and also user profile
             <div className="user">
               <div className="icon">
                 <CiLogout />
@@ -59,7 +58,6 @@ const Nav = ({ search, setSearch, searchproduct }) => {
               </div>
             </div>
           ) : (
-            // if user is not Login then login button will shown
             <div className="user">
               <div className="icon">
                 <FiLogIn />
@@ -72,34 +70,31 @@ const Nav = ({ search, setSearch, searchproduct }) => {
         </div>
         <div className="last_header">
           <div className="user_profile">
-            {
-              // User Profile Will Shown Here
-              isAuthenticated ? (
-                <>
-                  <div className="icon">
-                    <CiUser />
-                  </div>
-                  <div className="info">
-                    <h2>{user.name}</h2>
-                    <p>{user.email}</p>
-                  </div>
-                </>
-              ) : (
-                <>
-                  <div className="icon">
-                    <CiUser />
-                  </div>
-                  <div className="info">
-                    <p>Please Login</p>
-                  </div>
-                </>
-              )
-            }
+            {isAuthenticated ? (
+              <>
+                <div className="icon">
+                  <CiUser />
+                </div>
+                <div className="info">
+                  <h2>{user.name}</h2>
+                  <p>{user.email}</p>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="icon">
+                  <CiUser />
+                </div>
+                <div className="info">
+                  <p>Please Login</p>
+                </div>
+              </>
+            )}
           </div>
           <div className="nav">
             <ul>
               <li>
-                <Link to="/" className="link">
+                <Link to="/mediamgashop/" className="link">
                   Home
                 </Link>
               </li>
