@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/mediamgashop/static/css/main.947d070b.css",
+    "main.js": "/mediamgashop/static/js/main.4d497bf6.js",
+    "static/js/453.47e2b6b4.chunk.js": "/mediamgashop/static/js/453.47e2b6b4.chunk.js",
+    "static/media/Multi-Banner-5.webp": "/mediamgashop/static/media/Multi-Banner-5.e5896add99d2449723ab.webp",
+    "static/media/slide-1.webp": "/mediamgashop/static/media/slide-1.c4a81f50b414c8a83765.webp",
+    "static/media/p10.jpg": "/mediamgashop/static/media/p10.6327e864f1cfccbf1331.jpg",
+    "static/media/p9.jpg": "/mediamgashop/static/media/p9.394eb27873c9761dfb2a.jpg",
+    "static/media/p4.webp": "/mediamgashop/static/media/p4.33384b721d3f320e793c.webp",
+    "static/media/p8.webp": "/mediamgashop/static/media/p8.33384b721d3f320e793c.webp",
+    "static/media/p1.webp": "/mediamgashop/static/media/p1.a6e665068f84942d1803.webp",
+    "static/media/p11.jpg": "/mediamgashop/static/media/p11.baa757c719c0f70c88bf.jpg",
+    "static/media/Multi-Banner-3.webp": "/mediamgashop/static/media/Multi-Banner-3.04af832f8f84581cee1e.webp",
+    "static/media/p6.webp": "/mediamgashop/static/media/p6.a6b9fe6030a23712b293.webp",
+    "static/media/p2.webp": "/mediamgashop/static/media/p2.7a0e6f59a46805604183.webp",
+    "static/media/p5.webp": "/mediamgashop/static/media/p5.6c123010879ff03013a2.webp",
+    "static/media/p7.webp": "/mediamgashop/static/media/p7.8a2f088d2d5a35d430e1.webp",
+    "static/media/Multi-Banner-1.avif": "/mediamgashop/static/media/Multi-Banner-1.6c33543db4d3d6eeca58.avif",
+    "static/media/p3.webp": "/mediamgashop/static/media/p3.e82488caad3ffd7af3fa.webp",
+    "static/media/Multi-banner-4.avif": "/mediamgashop/static/media/Multi-banner-4.8066d9fdcafa6fe74c13.avif",
+    "static/media/Multi-banner-2.avif": "/mediamgashop/static/media/Multi-banner-2.56b12c88f5f8c6e039c5.avif",
+    "static/media/T1.avif": "/mediamgashop/static/media/T1.60c99ecd462f3479a059.avif",
+    "index.html": "/mediamgashop/index.html",
+    "main.947d070b.css.map": "/mediamgashop/static/css/main.947d070b.css.map",
+    "main.4d497bf6.js.map": "/mediamgashop/static/js/main.4d497bf6.js.map",
+    "453.47e2b6b4.chunk.js.map": "/mediamgashop/static/js/453.47e2b6b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.947d070b.css",
+    "static/js/main.4d497bf6.js"
+  ]
+}
